@@ -140,5 +140,6 @@ if (!rank) return message.reply(' ')
 });
 
 
-client.login("NTgyODIyMzk1OTc1NTY1MzMy.XOzZ8w.ee44GQr-B_tGIM4-tG9g1mIyh1k"");
-client2.login("NTgyODI0Nzk2MTIzOTU1MjAy.XOzcKQ.6tZUwU61mlQwb5xGyLxBWNtIGMw"");
+
+client.login(process.env.TOKEN);
+client2.login(process.env.TOKEN2);
